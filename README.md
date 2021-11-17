@@ -1,2 +1,5 @@
 # HTML-Informatica-Havo4
-HTML Cursus
+HTML Website Project Informatica Havo4
+Subject: OMORI (Game)
+By: Boy
+

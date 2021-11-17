@@ -1,0 +1,225 @@
+@charset "utf-8";
+/* CSS Document */
+/* Eindproject Boy */
+
+/* Fonts */
+@font-face {
+    font-family: "OMORI_GAME";
+    src: url("fonts/OMORI_GAME.ttf");
+    font-family: "OMORI_GAME2";
+    src:url("fonts/OMORI_GAME2.ttf");
+}
+
+.font1{
+    font-family: "OMORI_GAME";
+}
+
+/* Main HTML things */
+body{
+    font-family: "OMORI_GAME2";
+    background-image:url("../images/dreamworldbackground.png");
+    background-repeat: repeat;
+}
+
+footer{
+    bottom:5px;
+    color:gold;
+    font-size: xx-large;
+}
+
+p {
+    font-size: xx-large;
+}
+
+h1 {
+    font-size:xxx-large;
+    text-align: center;
+}
+
+.H2 {
+    font-size: xx-large;
+    text-align: center;
+}
+
+.container {
+    position: relative;
+}
+
+
+
+/* Hyperlinks */
+.a_class a:link {
+    text-decoration: none;
+    background-color:grey;
+}
+.a_class a:hover {
+    font-family: "OMORI_GAME";
+    background-color: hotpink;
+}
+
+
+/* General use */
+.center {
+    text-align: center;
+}
+
+.centerimage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 24%;
+}
+
+.pfloatleft {
+    width: 15%
+}
+
+.charfloatleft {
+    width: 8%;
+}
+
+
+/* Boxes and items */
+.main-box-info {
+    height:100%;
+    overflow:hidden;
+    padding:1rem;
+    padding-right:1.25rem;
+    max-width:var(--max-content-width);
+    position:relative;
+    --tw-bg-opacity:1;
+    background-color:rgba(0,0,0,var(--tw-bg-opacity));
+    --tw-text-opacity:1;
+    color:rgba(255,255,255,var(--tw-text-opacity));
+    box-shadow:inset 0 0 0 1px #000,inset 0 0 0 3px #5A5A5A;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    display: inline-block;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.second-box-info {
+    width: 68%;
+    overflow:hidden;
+    padding:1rem;
+    padding-right:1.25rem;
+    max-width:var(--max-content-width);
+    position:relative;
+    --tw-bg-opacity:1;
+    background-color:rgba(0,0,0,var(--tw-bg-opacity));
+    --tw-text-opacity:1;
+    color:rgba(255,255,255,var(--tw-text-opacity));
+    box-shadow:inset 0 0 0 1px #000,inset 0 0 0 3px #5A5A5A;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    display: inline-block;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.item {
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    width: 280px;
+}
+
+.caption-main {
+    display: block;
+    font-size: xx-large;
+    color: aliceblue;
+}
+
+
+/* Extra's */
+.borderwtws {
+    margin-left: 15px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #C3BEB6;
+    width: 300px;
+    padding-left:15px;
+}
+ 
+/* Images */
+.chibi {
+    height: 110px;
+}
+
+#omorilogo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -10px;
+    height: 220px;
+    size: auto;
+}
+
+.mainlightbulb {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:-10px;
+    height: 50%;
+}
+
+.navigation_container{
+    text-align:center;
+}
+
+.navigation_second {
+    display:inline-block;
+    margin: 5px 20px;
+    padding: 5px;
+    height:170px;   
+}
+
+
+/* Height and width */
+.itemheight {
+    height: 200px;
+}
+
+.pointright{
+    float:right;
+}
+
+.welcometowhitespace_gif {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    height: 449px;
+}
+
+#centertrailer {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    height: 449px;
+}
+
+
+
+
+
+/* English version */
+.colorwhite {
+    color:white;
+}
+
+.link_class a:link {
+    text-decoration: none;
+    color:green;
+    
+}
+.link_class a:visited{
+    color:rgb(166, 207, 51)
+}
+.link_class a:hover {
+    color:pink
+}
